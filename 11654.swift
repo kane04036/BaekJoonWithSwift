@@ -5,7 +5,7 @@
 //  Created by 제임스 on 2022/11/03.
 //
 
-//import Foundation
-//
-//var word = readLine()!
-//print(Character(word).asciiValue!)
+import Foundation
+
+var word = readLine()!
+print(Character(word).asciiValue!)
