@@ -1,3 +1,0 @@
-import foundation
-
-print("print")
