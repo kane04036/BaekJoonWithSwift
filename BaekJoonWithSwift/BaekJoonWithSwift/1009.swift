@@ -23,13 +23,6 @@ for _ in 0..<input!{
         if (num1 < 0 || num1 > 100) || (num2 < 0 || num2 > 10000000){
             exit(1)
         }
-//        for _ in 0..<num2{
-//            if num1 == 1{
-//                result = 1
-//            }else{
-//                result = (result%10)*num1
-//            }
-//        }
         num1 = num1%10
         switch(num1){
         case 0:
@@ -70,3 +63,4 @@ for _ in 0..<input!{
 for i in resultArray{
     print(i)
 }
+
