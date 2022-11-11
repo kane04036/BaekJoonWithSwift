@@ -7,36 +7,44 @@
 
 import Foundation
 
-let input = readLine()!.components(separatedBy: " ")
-let numArray = input.map {Int(String($0))}
+let T = Int(readLine()!)
+var Karray : Array<Int> = []
+var Narray : Array<Int> = []
+var maxK:Int = 0, maxN:Int = 0
 
-guard let N = numArray[0] else {exit(1)}
-guard let L = numArray[1] else {exit(1)}
-guard let D = numArray[2] else {exit(1)}
-var sumL:Int = 0, sumD:Int = 0
-
-if N<1 || N>20 || L<1 || L>180 || D<1 || D>20{
-    exit(1)
+for i in 0..<T!{
+    Karray.append(Int(readLine()!)!)
+    Narray.append(Int(readLine()!)!)
+    if Karray[i]<0 || Narray[i]>15{
+        exit(1)
+    }
+    if Karray[i] > maxK{
+        maxK = Karray[i]
+    }
+    if Narray[i] > maxN{
+        maxN = Narray[i]
+    }
 }
 
-for _ in 0..<N{
-    sumL = sumL+L
-    while((sumD+D) < (sumL+5)){
-        sumD = sumD + D
-        if sumD >= sumL && sumD < sumL+5{
-            print(sumD)
-            exit(0)
+var peopleInFloorArray : [[Int]] = Array(repeating: Array(repeating: 0, count: maxN+1), count: maxK+1)
+
+for j in 0...maxK{
+    for k in 1...maxN{
+        if j == 0{
+            peopleInFloorArray[j][k] = k
+            continue
+        }
+        for n in 1...k{
+            peopleInFloorArray[j][k] =  peopleInFloorArray[j][k] + peopleInFloorArray[j-1][n]
         }
     }
-    sumL = sumL+5
-}
-while(true){
-    if sumD > sumL-5{
-        print(sumD)
-        break
-    }else{
-        sumD = sumD + D
-    }
 }
 
+for i in 0..<T!{
+    let k = Karray[i]
+    let n = Narray[i]
+    print(peopleInFloorArray[k][n])
+}
+
+//이렇게 max, min구하지 말고 그냥 15층까지 다 구해버린가음데
 
