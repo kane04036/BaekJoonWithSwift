@@ -6,13 +6,9 @@
 //
 
 import Foundation
-let inputArray = readLine()!.components(separatedBy: " ").map {Int(String($0))}
-var count:Int = 0
-var sum:Int = 0
-let height = inputArray[2]!
-let num = inputArray[0]! - inputArray[1]!
-if (height % num) == (height/num){
-    print(height/num)
-}else{
-    print(height%num)
-}
+var input = readLine()?.components(separatedBy: " ")
+var numX = Int(String(input![0].reversed()))
+var numY = Int(String(input![1].reversed()))
+if numX! < 1 || numX! > 1000 || numY! > 1000 || numY! < 1{exit(1)}
+var result = Int(String(String(numX! + numY!).reversed()))
+print(result!)
