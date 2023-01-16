@@ -32,6 +32,9 @@
 		3E60A4B5292D155100B35B17 /* 1157.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1157.swift; sourceTree = "<group>"; };
 		3E60A4B6292D293200B35B17 /* 1546.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1546.swift; sourceTree = "<group>"; };
 		3E60A4B7292D2D8D00B35B17 /* 1259.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1259.swift; sourceTree = "<group>"; };
+		3E9C79862975AE7D00CB7308 /* 1436.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1436.swift; sourceTree = "<group>"; };
+		3E9C79872975C07B00CB7308 /* 2941.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2941.swift; sourceTree = "<group>"; };
+		3E9C79882975C70C00CB7308 /* 11728.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11728.swift; sourceTree = "<group>"; };
 		3EB8643B293921C400D142FD /* 11653.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11653.swift; sourceTree = "<group>"; };
 		3EBFE7D4293057BD009AABA3 /* 1357.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1357.swift; sourceTree = "<group>"; };
 		3EE677CA29308983004900A0 /* 4344.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4344.swift; sourceTree = "<group>"; };
@@ -67,6 +70,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E2491642975965E0091DB28 /* Silver */ = {
+			isa = PBXGroup;
+			children = (
+				3E9C79862975AE7D00CB7308 /* 1436.swift */,
+				3E9C79872975C07B00CB7308 /* 2941.swift */,
+				3E9C79882975C70C00CB7308 /* 11728.swift */,
+			);
+			path = Silver;
+			sourceTree = "<group>";
+		};
 		3EB8643A29391CEB00D142FD /* Bronze */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +119,7 @@
 		3EF492D2291D693F00AD34F8 = {
 			isa = PBXGroup;
 			children = (
+				3E2491642975965E0091DB28 /* Silver */,
 				3EB8643A29391CEB00D142FD /* Bronze */,
 				3EF492DD291D693F00AD34F8 /* BaekJoon */,
 				3EF492DC291D693F00AD34F8 /* Products */,
