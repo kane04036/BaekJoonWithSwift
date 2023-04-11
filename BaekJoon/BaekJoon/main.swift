@@ -6,29 +6,14 @@
 //
 
 import Foundation
-
-var noneSelfNum:[Int] = []
-var selfNum:[Int] = []
-
-
-for i in 1 ..< 10000 {
-    var num = i
-    var numCount = Double(String(i).count)
-    var squareNum = Int(pow(10.0, numCount))
-    for j in 0 ..< String(i).count{
-        num += (num%squareNum)/(squareNum/10)
-        squareNum/=10
-    }
-    if num >= 10000{
-        break
-    }
-    noneSelfNum.append(num)
+//11651
+let loopNum = Int(readLine()!)!
+var coordiArray:[String] = []
+var num = 0
+for _ in 0 ..< loopNum{
+    coordiArray.append(readLine()!)
 }
 
-print(noneSelfNum)
-
-for i in 0 ..< 10000{
-    if !noneSelfNum.contains(i){
-        print(i)
-    }
+for i in 0 ..< loopNum{
+    
 }
