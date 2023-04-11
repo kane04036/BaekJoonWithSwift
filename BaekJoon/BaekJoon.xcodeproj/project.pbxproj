@@ -24,6 +24,9 @@
 
 /* Begin PBXFileReference section */
 		3E060002292419CE00FA8438 /* 2750.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2750.swift; sourceTree = "<group>"; };
+		3E1788B629B096E200458E33 /* 10798.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10798.swift; sourceTree = "<group>"; };
+		3E1788B729B103B200458E33 /* 2846.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2846.swift; sourceTree = "<group>"; };
+		3E1788B829B1076F00458E33 /* 1551.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1551.swift; sourceTree = "<group>"; };
 		3E2491582971AD6A0091DB28 /* 2920.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2920.swift; sourceTree = "<group>"; };
 		3E2491592971B9530091DB28 /* 1924.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1924.swift; sourceTree = "<group>"; };
 		3E2FEDCF29214EA5007FF6D8 /* 2775.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2775.swift; sourceTree = "<group>"; };
@@ -122,6 +125,9 @@
 				3E550F2C29A4C7D000A3ABC4 /* 2851.swift */,
 				3E550F2D29A4E4C400A3ABC4 /* 1292.swift */,
 				3E550F2E29A4E71600A3ABC4 /* 9093.swift */,
+				3E1788B629B096E200458E33 /* 10798.swift */,
+				3E1788B729B103B200458E33 /* 2846.swift */,
+				3E1788B829B1076F00458E33 /* 1551.swift */,
 			);
 			path = Bronze;
 			sourceTree = "<group>";
