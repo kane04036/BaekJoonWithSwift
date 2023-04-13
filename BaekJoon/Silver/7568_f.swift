@@ -1,8 +1,8 @@
 //
-//  main.swift
-//  BaekJoonWithSwift
+//  7568.swift
+//  BaekJoon
 //
-//  Created by 제임스 on 2022/11/11.
+//  Created by 제임스 on 2023/04/14.
 //
 
 import Foundation
@@ -42,4 +42,3 @@ for i in array {
     }
     
 }
-
