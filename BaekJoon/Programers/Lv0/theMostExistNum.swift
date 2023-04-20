@@ -1,9 +1,10 @@
 //
-//  main.swift
-//  BaekJoonWithSwift
+//  theMostExistNum.swift
+//  BaekJoon
 //
-//  Created by 제임스 on 2022/11/11.
+//  Created by 제임스 on 2023/04/21.
 //
+
 import Foundation
 
 var arr:[Int] = [1,1,2,2]

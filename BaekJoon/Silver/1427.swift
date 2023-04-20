@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+var input = Array(readLine()!)
+input.sort(by: >)
+input.forEach({print($0,terminator: "")})
