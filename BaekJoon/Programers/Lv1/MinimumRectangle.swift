@@ -1,9 +1,10 @@
 //
-//  main.swift
-//  BaekJoonWithSwift
+//  MinimumRectangle.swift
+//  BaekJoon
 //
-//  Created by 제임스 on 2022/11/11.
+//  Created by 제임스 on 2023/04/27.
 //
+
 import Foundation
 
 let input = [[60, 50], [30, 70], [60, 30], [80, 40]]

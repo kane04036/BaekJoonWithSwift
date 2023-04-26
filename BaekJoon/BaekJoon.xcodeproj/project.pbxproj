@@ -24,9 +24,9 @@
 
 /* Begin PBXFileReference section */
 		3E060002292419CE00FA8438 /* 2750.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2750.swift; sourceTree = "<group>"; };
-		3E08FE1629F1A01F00D8C813 /* fountainAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fountainAdd.swift; sourceTree = "<group>"; };
+		3E08FE1629F1A01F00D8C813 /* FountainAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FountainAdd.swift; sourceTree = "<group>"; };
 		3E08FE1729F1A35F00D8C813 /* OXquiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OXquiz.swift; sourceTree = "<group>"; };
-		3E08FE1829F1ACDC00D8C813 /* theMostExistNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = theMostExistNum.swift; sourceTree = "<group>"; };
+		3E08FE1829F1ACDC00D8C813 /* TheMostExistNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMostExistNum.swift; sourceTree = "<group>"; };
 		3E1788B629B096E200458E33 /* 10798.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10798.swift; sourceTree = "<group>"; };
 		3E1788B729B103B200458E33 /* 2846.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2846.swift; sourceTree = "<group>"; };
 		3E1788B829B1076F00458E33 /* 1551.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1551.swift; sourceTree = "<group>"; };
@@ -43,6 +43,10 @@
 		3E422A2629E8812E00D76A2A /* 7568_f.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7568_f.swift; sourceTree = "<group>"; };
 		3E422A2729E8870D00D76A2A /* 7568.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7568.swift; sourceTree = "<group>"; };
 		3E422A2829E8889A00D76A2A /* 1427.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1427.swift; sourceTree = "<group>"; };
+		3E4A2B3629F97BAD00BC27CD /* HarshadNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarshadNumber.swift; sourceTree = "<group>"; };
+		3E4A2B3829F97E2800BC27CD /* NotExistingNumSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotExistingNumSum.swift; sourceTree = "<group>"; };
+		3E4A2B3929F9804E00BC27CD /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
+		3E4A2B3A29F9878100BC27CD /* MinimumRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumRectangle.swift; sourceTree = "<group>"; };
 		3E550F2B29A4C0F300A3ABC4 /* 1032.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1032.swift; sourceTree = "<group>"; };
 		3E550F2C29A4C7D000A3ABC4 /* 2851.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2851.swift; sourceTree = "<group>"; };
 		3E550F2D29A4E4C400A3ABC4 /* 1292.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1292.swift; sourceTree = "<group>"; };
@@ -50,9 +54,9 @@
 		3E60A4B5292D155100B35B17 /* 1157.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1157.swift; sourceTree = "<group>"; };
 		3E60A4B6292D293200B35B17 /* 1546.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1546.swift; sourceTree = "<group>"; };
 		3E60A4B7292D2D8D00B35B17 /* 1259.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1259.swift; sourceTree = "<group>"; };
-		3E697E2629EEE7CF00E3ABBD /* babbling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = babbling.swift; sourceTree = "<group>"; };
-		3E697E2829EEEFD100E3ABBD /* nextNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nextNum.swift; sourceTree = "<group>"; };
-		3E697E2929EF0CC500E3ABBD /* parallel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parallel.swift; sourceTree = "<group>"; };
+		3E697E2629EEE7CF00E3ABBD /* Babbling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Babbling.swift; sourceTree = "<group>"; };
+		3E697E2829EEEFD100E3ABBD /* NextNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextNum.swift; sourceTree = "<group>"; };
+		3E697E2929EF0CC500E3ABBD /* Parallel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parallel.swift; sourceTree = "<group>"; };
 		3E75D47129A3ED1400CB2394 /* 2163.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2163.swift; sourceTree = "<group>"; };
 		3E9C79862975AE7D00CB7308 /* 1436.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1436.swift; sourceTree = "<group>"; };
 		3E9C79872975C07B00CB7308 /* 2941.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2941.swift; sourceTree = "<group>"; };
@@ -112,15 +116,26 @@
 			path = Silver;
 			sourceTree = "<group>";
 		};
+		3E4A2B3529F97B9700BC27CD /* Lv1 */ = {
+			isa = PBXGroup;
+			children = (
+				3E4A2B3629F97BAD00BC27CD /* HarshadNumber.swift */,
+				3E4A2B3829F97E2800BC27CD /* NotExistingNumSum.swift */,
+				3E4A2B3929F9804E00BC27CD /* Budget.swift */,
+				3E4A2B3A29F9878100BC27CD /* MinimumRectangle.swift */,
+			);
+			path = Lv1;
+			sourceTree = "<group>";
+		};
 		3E697E2529EEE7C400E3ABBD /* Lv0 */ = {
 			isa = PBXGroup;
 			children = (
-				3E697E2629EEE7CF00E3ABBD /* babbling.swift */,
-				3E697E2829EEEFD100E3ABBD /* nextNum.swift */,
-				3E697E2929EF0CC500E3ABBD /* parallel.swift */,
-				3E08FE1629F1A01F00D8C813 /* fountainAdd.swift */,
+				3E697E2629EEE7CF00E3ABBD /* Babbling.swift */,
+				3E697E2829EEEFD100E3ABBD /* NextNum.swift */,
+				3E697E2929EF0CC500E3ABBD /* Parallel.swift */,
+				3E08FE1629F1A01F00D8C813 /* FountainAdd.swift */,
 				3E08FE1729F1A35F00D8C813 /* OXquiz.swift */,
-				3E08FE1829F1ACDC00D8C813 /* theMostExistNum.swift */,
+				3E08FE1829F1ACDC00D8C813 /* TheMostExistNum.swift */,
 			);
 			path = Lv0;
 			sourceTree = "<group>";
@@ -128,6 +143,7 @@
 		3EAA211529EDBDBA0068EB53 /* Programers */ = {
 			isa = PBXGroup;
 			children = (
+				3E4A2B3529F97B9700BC27CD /* Lv1 */,
 				3E697E2529EEE7C400E3ABBD /* Lv0 */,
 			);
 			path = Programers;
