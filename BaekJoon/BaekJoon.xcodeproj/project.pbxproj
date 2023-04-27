@@ -47,6 +47,7 @@
 		3E4A2B3829F97E2800BC27CD /* NotExistingNumSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotExistingNumSum.swift; sourceTree = "<group>"; };
 		3E4A2B3929F9804E00BC27CD /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
 		3E4A2B3A29F9878100BC27CD /* MinimumRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumRectangle.swift; sourceTree = "<group>"; };
+		3E4A2B3B29FAD1AA00BC27CD /* CardBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBundle.swift; sourceTree = "<group>"; };
 		3E550F2B29A4C0F300A3ABC4 /* 1032.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1032.swift; sourceTree = "<group>"; };
 		3E550F2C29A4C7D000A3ABC4 /* 2851.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2851.swift; sourceTree = "<group>"; };
 		3E550F2D29A4E4C400A3ABC4 /* 1292.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1292.swift; sourceTree = "<group>"; };
@@ -123,6 +124,7 @@
 				3E4A2B3829F97E2800BC27CD /* NotExistingNumSum.swift */,
 				3E4A2B3929F9804E00BC27CD /* Budget.swift */,
 				3E4A2B3A29F9878100BC27CD /* MinimumRectangle.swift */,
+				3E4A2B3B29FAD1AA00BC27CD /* CardBundle.swift */,
 			);
 			path = Lv1;
 			sourceTree = "<group>";

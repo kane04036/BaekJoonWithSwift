@@ -1,9 +1,10 @@
 //
-//  main.swift
-//  BaekJoonWithSwift
+//  CardBundle.swift
+//  BaekJoon
 //
-//  Created by 제임스 on 2022/11/11.
+//  Created by 제임스 on 2023/04/28.
 //
+
 import Foundation
 
 let input1:[String] = ["i", "water", "drink"]
